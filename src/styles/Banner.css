@@ -1,0 +1,22 @@
+.ajh-banner {
+    color: black;
+    background-color: #f7fff7;
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 3px black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ajh-title {
+    padding-left: 32px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4vmax;
+}
+.ajh-logo {
+    height: 40px;
+    width: 40px;
+}
+
