@@ -8,14 +8,14 @@ function Categories({ setActiveCategory, categories, activeCategory }) {
 				onChange={(e) => setActiveCategory(e.target.value)}
 				className='ajh-categories-select'
 			>
-				<option value=''>---</option>
+				<option value=''>-Filtrer-</option>
 				{categories.map((cat) => (
 					<option key={cat} value={cat}>
 						{cat}
 					</option>
 				))}
 			</select>
-			<button onClick={() => setActiveCategory('')}>Réinitialiser</button>
+			<button className='reinitialiserButton' onClick={() => setActiveCategory('')}>Réinitialiser</button>
 		</div>
 	)
 }
