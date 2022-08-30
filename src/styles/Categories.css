@@ -1,24 +1,23 @@
-.ajh-categories {
-	
-	padding-top: 30px;
-}
+
 
 .ajh-categories-select {
 	margin-left: 30px;
 }
 
 .reinitialiserButton{
+
 	    border-radius: 5px;
 	    background: white;
 	    font-family: 'Nunito',
 	    sans-serif;
 	    color: black;
+		font-weight: bold;
 	    border: black;
-	    padding: 5px;
+	    padding: 3px;
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 12px;
+	    font-size: 14px;
 	    margin: 10px;
 	    cursor: pointer;
 }

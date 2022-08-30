@@ -2,7 +2,8 @@
     color: black;
     background-color: #f7fff7;
     text-align: right;
-    padding: 32px;
+    padding-right: 22px;
+    padding-top: 33px;
     border-bottom: solid 3px black;
     display: flex;
     justify-content: flex-end;
