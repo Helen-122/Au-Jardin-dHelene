@@ -3,7 +3,7 @@ import lyrata from '../assets/lyrata.jpg'
 import pothos from '../assets/pothos.jpg'
 import succulent from '../assets/succulent.jpg'
 import olivier from '../assets/olivier.jpg'
-import basil from '../assets/basil.jpg'
+
 import mint from '../assets/mint.jpg'
 import calathea from '../assets/calathea.jpg'
 import cactus from '../assets/cactus.jpg'
@@ -68,16 +68,7 @@ export const plantList = [
         cover: cactus,
         price: 6
     },
-    {
-        name: 'basilique',
-        category: 'extérieur',
-        id: '7ie',
-        bestSale: true,
-        light: 2,
-        water: 3,
-        cover: basil,
-        price: 5
-    },
+   
     {
         name: 'succulente',
         category: 'plante grasse',
